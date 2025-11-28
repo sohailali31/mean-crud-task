@@ -1,14 +1,3 @@
-Got it — you want the **entire README formatted like the section you showed**:
-
-✔ Short steps
-✔ Each step followed by only the commands
-✔ No long paragraphs
-✔ Simple GitHub documentation style
-
-Here is the final version:
-
----
-
 ## README.md
 
 ````md
@@ -17,7 +6,7 @@ Here is the final version:
 This repository documents the deployment process for a MEAN (MongoDB, Express, Angular, Node.js) application using Docker, Jenkins CI/CD, and Nginx on an AWS EC2 instance.
 
 ---
-
+````
 ## 1. Push Project to GitHub
 
 ```bash
@@ -98,28 +87,10 @@ sudo systemctl restart nginx
 
 ---
 
-## 9. Install Jenkins
-
-```bash
-sudo apt update
-sudo apt install openjdk-17-jre -y
-wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
-sudo sh -c 'echo deb https://pkg.jenkins.io/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
-sudo apt update
-sudo apt install jenkins -y
-sudo systemctl enable jenkins
-sudo systemctl start jenkins
-```
-
-Access Jenkins:
-
-```bash
-http://<EC2_PUBLIC_IP>:8080
-```
 
 ---
 
-## 10. Jenkins Deployment Commands (Used in Pipeline)
+## 9. Jenkins Deployment Commands (Used in Pipeline)
 
 ```bash
 docker-compose pull
@@ -130,17 +101,17 @@ docker ps
 
 ---
 
-## 11. Verify Application
+## 10. Verify Application
 
 Open in browser:
 
 ```
-http://<EC2_PUBLIC_IP>
+http://<EC2_PUBLIC_IP>:4200
 ```
 
 ---
 
-## 12. Validation Checklist
+## 11. Validation Checklist
 
 ```txt
 ✔ Code pushed to GitHub
