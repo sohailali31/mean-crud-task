@@ -1,12 +1,11 @@
 ## README.md
 
-````md
-# MEAN Stack Deployment with Docker, Jenkins CI/CD, and Nginx
+
+## MEAN Stack Deployment with Docker, Jenkins CI/CD, and Nginx
 
 This repository documents the deployment process for a MEAN (MongoDB, Express, Angular, Node.js) application using Docker, Jenkins CI/CD, and Nginx on an AWS EC2 instance.
 
----
-````
+
 ## 1. Push Project to GitHub
 
 ```bash
