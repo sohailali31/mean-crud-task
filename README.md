@@ -130,15 +130,4 @@ Mohammad Sohail Ali
 Cloud & DevOps Engineer
 ```
 
-```
 
----
-
-Would you like me to:
-
-- Convert this to a **PDF**?
-- Add **screenshots placeholders**?
-- Add a **simple diagram**?
-
-Just tell me: **PDF**, **Screenshots**, or **Diagram**.
-```
